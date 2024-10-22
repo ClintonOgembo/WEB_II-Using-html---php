@@ -1,0 +1,17 @@
+Variables in php
+Arithmetic Operators : +, -, /, *
+Logic operators : OR AND NOT
+Relational operators : > , = , < , >=, <=, ===
+assignment operator : =
+Control Structures :
+     1.) Sequential ctrl Structures,
+     2.) Decision/Relational/Branching/Conditional ctrl Structures ; 
+        if
+        
+        
+        switch case
+        ternary operator
+    3.) Looping ctrl Structures:
+        for
+        while
+        do while
