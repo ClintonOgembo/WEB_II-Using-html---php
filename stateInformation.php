@@ -5,6 +5,7 @@ The following example starts a session then
 register a variable called counter that is incremented 
 each time the page is visited during the session.  
 **/
+
 session_start(); 
 // Make use of isset() function to check if session variable is already set or not. 
 if( isset( $_SESSION['counter'] ) )  
@@ -17,5 +18,11 @@ if( isset( $_SESSION['counter'] ) )
 
 $msg = "You have visited this page ".  $_SESSION['counter']  . " in this session" ; 
 echo $msg; 
+
+// To unset a single variable 
+unset($_SESSION['counter']); 
+
+// To destroy all session variables
+session_destroy();
 
 ?>
